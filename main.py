@@ -20,7 +20,7 @@ protected page with your username and password
 username = "Nelly"
 password = "12345678"
 
-req = urllib.request(theurl)
+req = urllib.request('http://www.someserver.com/somepath/somepage.html')
 try:
     handle = urllib.request.urlopen(req)
 except IOError as e:
